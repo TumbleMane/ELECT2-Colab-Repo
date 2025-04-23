@@ -17,5 +17,10 @@ body{
 }
 
 h1{
-    color: gray;
+    color: black;
+    filter: drop-shadow(gray 5px 5px 5px);
+}
+
+img{
+        max-width: 30%;
 }
