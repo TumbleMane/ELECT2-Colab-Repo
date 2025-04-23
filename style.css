@@ -7,3 +7,11 @@ body{
     background-color: white;
 }
 
+.container{
+    margin: auto;
+    transition: 0.5s;
+    width: 1080;
+    max-width: 90vw;
+    text-align: center;
+    align-items: center;
+}
