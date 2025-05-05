@@ -170,3 +170,15 @@ ul li a:hover {
     margin: auto;
   }
 }
+.foot{
+  padding: 5rem 1rem 5rem 1rem;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+
+.foot a{
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: var(--primary-color) 5px 5px 5px;
+}
