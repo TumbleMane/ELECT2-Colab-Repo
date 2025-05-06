@@ -22,7 +22,7 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-
+  align-content: center;
 }
 
 nav {
@@ -129,7 +129,7 @@ ul li a:hover {
   opacity: 100%;
 }
 .backdrop img{
-    height: auto;
+    height: fit-content;
     max-width: 100%;
     opacity: 100%;
 }
