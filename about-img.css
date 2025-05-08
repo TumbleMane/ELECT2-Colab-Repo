@@ -1,0 +1,40 @@
+#aboutImg1, #aboutImg2 {
+    position: relative;
+    float: right;
+    height: auto;
+    max-width: fit-content;
+    border-radius: 30px;
+    margin-top: 8%;
+    right: 4rem;
+    padding: 1rem;
+    width: 22%;
+    opacity: 100%;
+    transition: all 0.5s ease;transition: all 0.5s ease;
+  }
+
+img:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+      0deg, 
+      transparent, 
+      transparent 30%, 
+      rgba(0,255,255,0.3)
+    );
+    transform: rotate(-45deg);
+    transition: all 0.5s ease;
+    opacity: 0;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  img:hover::before {
+    opacity: 1;
+    transform: rotate(-45deg) translateY(100%);
+  }
