@@ -23,6 +23,7 @@ a {
 body {
   font-family: "Poppins", sans-serif;
   align-content: center;
+  max-height: fit-content;
 }
 
 nav {
@@ -171,27 +172,31 @@ ul li a:hover {
   }
 }
 .foot{
-  position: fixed;
+  margin-top: 1rem;
+  position: bottom;
   bottom: 0;
   width: 100%;
   padding: 1rem 1rem 1rem 1rem;
   text-align: center;
-  background-color: grey;
+  background-color: var(--text-light);
   color: white;
-  transition: bottom 0.3s;
 }
 
 .foot a{
   color: white;
   font-size: 1.5rem;
-  text-shadow: var(--primary-color) 5px 5px 5px;
+  text-shadow: #0b2936 5px 5px 5px;
 }
 
 
 .ContactBody{
+  margin-top: 10rem;
+  margin-bottom: 15.7rem;
+  margin-left: auto;
+  margin-right: auto;
+  height:auto;
   width: 70%;
-  margin: auto;
-  background-color: white;
+  background-color: var(--text-light);
   padding: 20px;
   border-radius: 10px;
   box-shadow: grey 0px 10px 10px 5px;
@@ -200,6 +205,8 @@ ul li a:hover {
 }
 .ContactBody h1, p{
   text-align: center;
+  color: whitesmoke;
+  text-shadow: #0b2936 5px 5px 5px;
 }
 .ContactBody table, th, td, tr{
   display: flex;
@@ -208,6 +215,17 @@ ul li a:hover {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  color: whitesmoke;
+  text-shadow: #0b2936 5px 5px 5px;
+}
+
+input[type=text]{
+  background-color: whitesmoke;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  color: var(--text-dark);
+  outline: none;
 }
 
 input[type=submit]{
