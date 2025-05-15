@@ -241,3 +241,42 @@ input[type=submit]{
   width: auto ;
 }
 
+.container img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.aboutBody-container {
+  position: relative;
+  height: fit-content;
+  width: auto;
+  max-width: 40%;
+  top: 5rem;
+  padding: 10px;
+  left: 10%;
+  overflow: auto;
+}
+
+.aboutHeader {
+  text-align: start;
+  font-size: large;
+}
+
+.aboutDescription {
+  padding: 10px;
+  font-size: medium;
+  word-spacing: 10px;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.goal-content li, ul{
+  position: relative;
+  text-align: center;
+}
+
+
